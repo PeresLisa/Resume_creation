@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Satisfy&display=swap");
 
 /* font-family: 'Cookie', cursive;
 font-family: 'Quicksand', sans-serif; */
@@ -33,7 +33,7 @@ li {
 
 a {
   text-decoration: none;
-  color: var(--color4);
+  color: var(--color5);
 }
 
 /* **********************NAVBAR********************** */
@@ -56,9 +56,9 @@ header li a {
   padding: 20px 20px;
 }
 #en_tete {
-  font-family: "Cookie", cursive;
+  font-family: "Satisfy", cursive;
   float: left;
-  font-size: 2em;
+  font-size: 1.5em;
   color: black;
 }
 
@@ -67,14 +67,15 @@ header li a {
   padding-top: 60px;
   background: url(./assets/marble.jpg) no-repeat fixed 50% 50%;
   background-size: cover;
-  height: 92vh;
+  height: 91vh;
 }
 #presentation {
   display: flex;
   flex-wrap: nowrap;
-  margin: 10% auto;
+  margin: 8% auto;
   justify-content: center;
 }
+/* Volet gauche */
 .pres_part1 {
   background: var(--color3);
   box-shadow: -3px -3px 9px 3px rgba(66, 45, 6, 0.3);
@@ -88,7 +89,7 @@ header li a {
   height: 170px;
 }
 .pres_part1 h2 {
-  font-family: "Cookie", cursive;
+  font-family: "Satisfy", cursive;
   font-size: 3em;
   color: var(--color4);
   text-align: center;
@@ -102,18 +103,33 @@ header li a {
   box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.5);
 }
 .pres_part1 h3 {
-  font-family: "Cookie", cursive;
-  font-size: 2em;
+  font-family: "Satisfy", cursive;
+  font-size: 1.5em;
   color: var(--color4);
   text-align: center;
   padding: 10px 0;
 }
+.pres_part1 ul {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  font-size: 1.6em;
+  padding: 10px 0;
+}
+.pres_part1 li {
+  padding: 0 20px;
+}
+.pres_part1 a:hover {
+  color: var(--color4);
+  transition: 0.1s ease-in-out;
+}
+/* Volet droite */
 .pres_part2 {
   background: white;
   padding: 20px 10px;
 }
 .pres_part2 h1 {
-  font-family: "Cookie", cursive;
+  font-family: "Satisfy", cursive;
   font-size: 4em;
   color: var(--color4);
   padding: 10px 0;
