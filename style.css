@@ -36,6 +36,12 @@ a {
   color: var(--color5);
 }
 
+h3 {
+  font-family: "Satisfy", cursive;
+  font-size: 1.5em;
+  color: var(--color4);
+}
+
 /* **********************NAVBAR********************** */
 
 nav {
@@ -67,7 +73,7 @@ header li a {
   padding-top: 60px;
   background: url(./assets/marble.jpg) no-repeat fixed 50% 50%;
   background-size: cover;
-  height: 91vh;
+  height: 100vh;
 }
 #presentation {
   display: flex;
@@ -103,9 +109,6 @@ header li a {
   box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.5);
 }
 .pres_part1 h3 {
-  font-family: "Satisfy", cursive;
-  font-size: 1.5em;
-  color: var(--color4);
   text-align: center;
   padding: 10px 0;
 }
@@ -159,4 +162,40 @@ header li a {
   color: var(--color4);
   cursor: pointer;
   transition: 0.3s ease-in-out;
+}
+
+/* **********************COMPETENCES********************** */
+#competences {
+  background-color: var(--color2);
+  padding: 10px 0px 100px 0px;
+}
+
+#competences h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 3em;
+  color: var(--color1);
+  padding: 10px 0;
+  text-align: center;
+}
+
+#competences h3 {
+  font-size: 2em;
+}
+
+#inventaire_comp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 5%;
+  margin-top: 30px;
+  text-align: center;
+}
+#statistiques,
+#programmation,
+#langues {
+  width: 350px;
+}
+.description_comp {
+  margin: 15px 20px;
+  font-family: "Quicksand", sans-serif;
 }
