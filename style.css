@@ -195,7 +195,41 @@ header li a {
 #langues {
   width: 350px;
 }
+#statistiques,
+#programmation,
+#langues p {
+  padding: auto 0;
+}
 .description_comp {
   margin: 15px 20px;
   font-family: "Quicksand", sans-serif;
+}
+#statistiques h3 {
+  color: #ebdecf;
+}
+#statistiques {
+  padding: 30px 10px;
+  border-radius: 30% 70% 63% 37% / 30% 38% 62% 70%;
+  background-color: var(--color4);
+}
+#programmation h3 {
+  color: white;
+}
+#programmation {
+  border-radius: 30% 70% 24% 76% / 81% 16% 84% 19%;
+  background-color: var(--color1);
+  padding: 30px 10px;
+}
+#langues {
+  border-radius: 47% 53% 64% 36% / 51% 19% 81% 49%;
+  background-color: var(--color3);
+  padding: 30px 10px;
+}
+.description_comp h4 {
+  font-size: 1.2em;
+  padding: 5px 0;
+}
+#statistiques p {
+  margin-top: 50px;
+  font-size: 1.2em;
 }
