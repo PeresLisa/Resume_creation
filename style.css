@@ -232,3 +232,9 @@ header li a {
   margin-top: 50px;
   font-size: 1.2em;
 }
+
+/* **********************EXPERIENCES********************** */
+
+#job_exp {
+  margin: 30px auto;
+}
