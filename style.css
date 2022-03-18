@@ -234,3 +234,16 @@ header li a {
 }
 
 /* **********************EXPERIENCES********************** */
+#experiences h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 3em;
+  color: var(--color4);
+  text-align: center;
+  padding: 10px 0;
+}
+#xplogo {
+  border-radius: 50%;
+}
+#poster {
+  border-radius: 50%;
+}
