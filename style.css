@@ -252,3 +252,14 @@ header li a {
 .Company_logo h3 {
   padding: 10px 0 0 0;
 }
+#Posters_presentes {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--color2);
+  margin: 0 10%;
+}
+.Posters img {
+  height: 200px;
+  padding: 0 30px 0 0;
+}
