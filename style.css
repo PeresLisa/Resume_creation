@@ -263,6 +263,7 @@ header li a {
   justify-content: center;
   background-color: var(--color2);
   margin: 0 10%;
+  box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.274);
 }
 .Posters img {
   height: 200px;
@@ -278,10 +279,19 @@ header li a {
 }
 #titre_type_job {
   text-align: center;
+  font-size: 1.1em;
 }
 .description_job ul {
   margin: 10px 0;
 }
 .description_job li {
   padding: 3px 0;
+}
+.trait_job {
+  height: 2px;
+  width: 25%;
+  margin: 10px auto;
+  /* auto pour centrer */
+  background-color: var(--color4);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
 }
