@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Satisfy&display=swap");
+
+/* font-family: 'Satisfy', cursive;
+font-family: 'Quicksand', sans-serif; */
+
+:root {
+  --color1: #626d71;
+  --color2: #ddddd4;
+  --color3: #ebdecf;
+  --color4: #997356;
+  --color5: rgb(0, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 3em;
+  color: var(--color4);
+  padding: 10px 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Quicksand", cursive;
+  font-size: 1.5em;
+  color: var(--color1);
+  padding: 10px 0 20px 0;
+  text-align: center;
+}
+
+img {
+  box-shadow: -3px -3px 9px 3px rgba(66, 45, 6, 0.3);
+  display: block;
+  margin: 10px auto;
+}
+
+.sec_poster {
+  background-color: var(--color3);
+  height: 120vh;
+}
