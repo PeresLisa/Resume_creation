@@ -240,6 +240,10 @@ header li a {
   color: var(--color4);
   text-align: center;
   padding: 10px 0;
+  margin-top: 10px;
+}
+.job_exp {
+  margin-top: 30px;
 }
 .Company_logo {
   padding: 10px 20px;
@@ -268,6 +272,12 @@ header li a {
   font-size: 1.2em;
   color: var(--color1);
   margin: 5px 30px 5px 0;
+}
+.description_job {
+  margin-left: 40px;
+}
+#titre_type_job {
+  text-align: center;
 }
 .description_job ul {
   margin: 10px 0;
