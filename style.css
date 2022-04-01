@@ -67,6 +67,9 @@ header li a {
   font-size: 1.5em;
   color: black;
 }
+.nav_text a:hover {
+  color: #997356;
+}
 
 /* **********************PRESENTATION********************** */
 #premiere_page {
@@ -272,6 +275,10 @@ header li a {
   height: 200px;
   padding: 0 30px 0 0;
 }
+.Posters img:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
 #experiences h4 {
   font-size: 1.2em;
   color: var(--color1);
@@ -286,7 +293,7 @@ header li a {
   font-size: 1.1em;
 }
 .description_job ul {
-  margin: 10px 0;
+  padding: 10px 0;
 }
 .description_job li {
   padding: 3px 0;
@@ -301,9 +308,77 @@ header li a {
 }
 
 /* **********************LOISIRS********************** */
-.loisir img {
-  height: 200px;
-  padding: 10px;
+#interets h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 3em;
+  color: var(--color1);
+  text-align: center;
+  padding: 40px 0;
+}
+#interets {
+  background: url(./assets/marble.jpg) no-repeat fixed 50% 50%;
+}
+.loisir_gch {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  min-height: 400px;
+}
+#img_taek {
+  background: url(./assets/Taekwondo.png) center/cover;
+  border-radius: 2px;
+}
+#img_gat {
+  background: url(./assets/gateau.jpeg) center/cover;
+  border-radius: 2px;
+}
+#img_cout {
+  background: url(./assets/couture.jpg) center/cover;
+  border-radius: 2px;
+}
+.loisir_dte {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  min-height: 400px;
+}
+#img_rando {
+  background: url(./assets/GR34.jpeg) center/cover;
+  border-radius: 2px;
+}
+#img_bocal {
+  background: url(./assets/bocaux.jpeg) center/cover;
+  border-radius: 2px;
+}
+.text_loisir_gch,
+.text_loisir_dte {
+  padding: 0 30px;
+}
+.text_loisir_gch h3,
+.text_loisir_dte h3 {
+  margin-top: 20px;
+  font-size: 2em;
+  padding: 10px 0;
+}
+.text_loisir_gch p,
+.text_loisir_dte p {
+  line-height: 36px;
+  margin-top: 50px;
+}
+.text_loisir_dte {
+  text-align: right;
+}
+#rando,
+#patis,
+#bocal,
+#cout {
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.082);
+}
+#res.sociaux {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+#res.sociaux p {
+  font-size: 1.4em;
 }
 
 /* **********************ETUDES********************** */
