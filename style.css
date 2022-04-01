@@ -299,3 +299,15 @@ header li a {
   background-color: var(--color4);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
 }
+
+/* **********************LOISIRS********************** */
+.loisir img {
+  height: 200px;
+  padding: 10px;
+}
+
+/* **********************ETUDES********************** */
+#formation img {
+  height: 50px;
+  padding: 10px;
+}
