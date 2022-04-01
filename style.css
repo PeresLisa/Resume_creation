@@ -369,17 +369,23 @@ header li a {
 #rando,
 #patis,
 #bocal,
-#cout {
+#cout,
+#res_sociaux {
   box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.082);
 }
-#res.sociaux {
+#res_sociaux {
   padding: 30px 0;
   display: flex;
   justify-content: center;
+  font-size: 1.5em;
 }
-#res.sociaux p {
-  font-size: 1.4em;
+#res_sociaux a {
+  padding: 0 10px;
 }
+#res_sociaux a:hover {
+  color: var(--color4);
+}
+
 
 /* **********************ETUDES********************** */
 #formation img {
@@ -434,7 +440,7 @@ textarea {
 
 input[type="text"]:focus,
 textarea:focus {
-  border: 1px solid skyblue;
+  border: 1px solid var(--color4);
 }
 textarea {
   resize: none;
