@@ -388,6 +388,8 @@ header li a {
 #interets a:hover {
   color: var(--color4);
   font-weight: bold;
+  font-size: 1.1em;
+  transition: ease-in-out;
 }
 
 
