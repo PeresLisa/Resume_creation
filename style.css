@@ -448,13 +448,13 @@ header li a {
 .form-grid {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 100px 250px;
+  grid-template-rows: 100px 224px;
   grid-template-areas:
     "input1 input2"
     "textarea textarea";
-  gap: 10px;
+  gap: 24px;
   width: 85%;
-  margin: 15px auto;
+  margin: 30px auto;
   max-width: 600px;
   /* pour ne pas que ça se déforme */
 }
@@ -464,7 +464,8 @@ header li a {
 label {
   font-weight: 600;
   font-size: 0.8rem;
-  letter-spacing: 1px;
+  font-family: Quicksand;
+  font-size: 1.1em;
 }
 input[type="text"],
 textarea {
@@ -474,18 +475,14 @@ textarea {
   border: 1px solid #ccc;
   padding: 10px;
   transition: 0.2s;
-}
-
-input[type="text"]:focus,
-textarea:focus {
-  border: 1px solid var(--color4);
+  font-family: Quicksand;
 }
 textarea {
   resize: none;
   height: 180px;
 }
 .button {
-  border: 1px solid #ccc;
+  border: 1px solid var(--color2);
   background: transparent;
   border-radius: 50px;
   padding: 13px 30px;
@@ -493,14 +490,11 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;
-  font: 700 0.75rem "Source Sans Pro";
-  /* rassemble font weight font size et font family */
   transition: 0.3s;
+  font-family: Quicksand;
+  font-size: 0.95em;
 }
 .button:hover {
   border: 1px solid var(--color4);
   color: var(--color4);
-}
-.contact {
-  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.082);
 }
