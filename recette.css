@@ -112,3 +112,24 @@ header li a {
     padding: 2px 40px;
     line-height: 35px;
 }
+
+/************ RESPONSIVE ************/
+@media screen and (max-width: 650px) {
+    .titre_recette img { 
+        height: 200px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .titre_recette img {
+        border-width: 15px;  
+        height: 100px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 400px) {
+    li {
+        padding: 2px 10px;
+    }
+}
