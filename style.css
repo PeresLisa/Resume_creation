@@ -47,6 +47,13 @@ h3 {
   padding: 0 20px 10px 0;
 }
 
+h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 3em;
+  text-align: center;
+  padding: 10px 0;
+}
+
 /* **********************NAVBAR********************** */
 
 nav {
@@ -103,11 +110,7 @@ header li a {
   height: 170px;
 }
 .pres_part1 h2 {
-  font-family: "Satisfy", cursive;
-  font-size: 3em;
   color: var(--color4);
-  text-align: center;
-  padding: 10px 0;
 }
 #ligne_intro {
   height: 1px;
@@ -179,11 +182,7 @@ header li a {
 }
 
 #competences h2 {
-  font-family: "Satisfy", cursive;
-  font-size: 3em;
   color: var(--color1);
-  padding: 10px 0;
-  text-align: center;
 }
 
 #competences h3 {
@@ -246,11 +245,7 @@ header li a {
   background-color: #ebdecf7a;
 }
 #experiences h2 {
-  font-family: "Satisfy", cursive;
-  font-size: 3em;
   color: var(--color4);
-  text-align: center;
-  padding: 10px 0;
   padding-top: 10px;
 }
 .job_exp {
@@ -314,11 +309,7 @@ header li a {
 
 /* **********************LOISIRS********************** */
 #interets h2 {
-  font-family: "Satisfy", cursive;
-  font-size: 3em;
   color: var(--color1);
-  text-align: center;
-  padding: 40px 0;
 }
 #interets {
   background: url(./assets/marble.jpg) no-repeat fixed 50% 50%;
@@ -403,11 +394,7 @@ header li a {
   background-color: #ebdecf7a;
 }
 #formation h2 {
-  font-family: "Satisfy", cursive;
-  font-size: 3em;
   color: var(--color1);
-  padding: 20px 0;
-  text-align: center;
 }
 #formation {
   display: grid;
@@ -443,11 +430,7 @@ header li a {
   background: url(./assets/marble.jpg) no-repeat fixed 50% 50%;
 }
 #contact h2 {
-  font-family: "Satisfy", cursive;
-  font-size: 3em;
   color: var(--color1);
-  text-align: center;
-  padding: 20px 0;
 }
 .form-grid {
   display: grid;
@@ -503,3 +486,22 @@ textarea {
   color: var(--color4);
 }
 
+/************ RESPONSIVE ************/
+@media screen and (max-width: 1250px) {
+  #statistiques,
+  #programmation,
+  #langues {
+  width: 250px;
+  }
+  #competences h3 {
+    font-size: 1.6em;
+  }
+  #statistiques p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 1000px) {
+  h2 {
+    font-size: 2.5em;
+  }
+}
