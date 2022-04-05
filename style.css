@@ -288,7 +288,7 @@ header li a {
   margin-left: 40px;
   margin-right: 20px;
 }
-#titre_type_job {
+#liste_poster {
   text-align: center;
   font-size: 1.1em;
 }
@@ -503,5 +503,133 @@ textarea {
 @media screen and (max-width: 1000px) {
   h2 {
     font-size: 2.5em;
+  }
+  .Posters img {
+    height: 150px;
+    padding: 0 5px 0 5px;
+  }
+}
+@media screen and (max-width: 950px) {
+  #inventaire_comp {
+    display: block;
+  }
+  #statistiques,
+  #programmation,
+  #langues {
+    margin: 25px auto;
+  }
+}
+@media screen and (max-width: 860px) {
+  header li a {
+    padding: 15px 10px;
+  }
+  header li {
+    font-size: 0.9em;
+  }
+  #formation {
+    grid-template-columns: 100% 0%;
+  }
+  .text_loisir_gch p,
+  .text_loisir_dte p {
+    line-height: 36px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  nav {
+    display: none !important;
+  }
+  #premiere_page {
+    padding-top: 30px;
+    background: url(./assets/marble.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 120vh;
+  }
+  #presentation {
+    display: block;
+    margin: 0 50px;
+  }
+  .pres_part2 {
+    text-align: center;
+  }
+  .pres_part2 h1 {
+    font-size: 2.5em;
+    padding: 0 0;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  #Posters_presentes {
+    padding: 10px 5px;
+    margin: 0 2%;
+  }
+  #res_sociaux {
+    padding: 20px 0;
+    font-size: 1em;
+  }
+  .text_loisir_gch p,
+  .text_loisir_dte p {
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .loisir_gch {
+    min-height: 250px;
+  }
+  .loisir_dte {
+    min-height: 250px;
+  }
+  .form-grid {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Company_logo img {
+    display: none;
+  }
+  #liste_poster {
+    display: none;
+  }
+  #Posters_presentes {
+    display: none;
+  }
+  .Company_logo h3 {
+    padding: 0 0 0 0;
+    font-size: 1.3em;
+  }
+  .job_exp {
+    margin-top: 5px;
+  }
+  p {
+    font-size: 0.8em;
+  }
+  li {
+    font-size: 0.8em;  
+  }
+  .text_loisir_gch h3,
+  .text_loisir_dte h3 {
+  margin-top: 5px;
+  font-size: 1.8em;
+  padding: 5px 0;
+  }
+}
+@media screen and (max-width: 500px){
+  .loisir_gch {
+    min-height: 200px;
+  }
+  .loisir_dte {
+    min-height: 200px;
+  }
+  .haut_page {
+    display: none;
+  }
+  input[type="text"],
+  textarea {
+    width: 100%;
+    margin: 10px 0 10px;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  .button {
+    padding: 13px 10px;
   }
 }
