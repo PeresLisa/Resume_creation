@@ -42,6 +42,11 @@ h3 {
   color: var(--color4);
 }
 
+.haut_page {
+  text-align: right;
+  padding: 0 20px 10px 0;
+}
+
 /* **********************NAVBAR********************** */
 
 nav {
@@ -170,7 +175,7 @@ header li a {
 /* **********************COMPETENCES********************** */
 #competences {
   background-color: var(--color2);
-  padding: 10px 0px 100px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 #competences h2 {
@@ -434,7 +439,7 @@ header li a {
 /* **********************CONTACT********************** */
 #contact {
   text-align: center;
-  padding: 60px 0;
+  padding: 60px 0 30px 0;
   background: url(./assets/marble.jpg) no-repeat fixed 50% 50%;
 }
 #contact h2 {
